@@ -42,7 +42,7 @@ async function getCountries(inputValue) {
     populationCountry.innerHTML = countryPopulation
 
     console.log("Usuarios:", countryFlag);
-    console.log('Nombre: ', countryName)
+    console.log('Nombre: ')
   } catch (error) {
     alert(error)
     console.error("Error al obtener usuarios:", error);

@@ -9,22 +9,25 @@
 
   <body>
 
-    <form action="" id="countryForm">
-        <div>
-            <label for="country">Escbibe tu País</label>
-            <input type="text" name="country" id="country">
+    <form id="countryForm" class="formCountry">
+        <div class="inputCountry">
+            <label for="country" >Escbibe tu País:</label>
+            <input type="text" name="country" id="country" placeholder="Escribe tu nombre aquí">
         </div>
 
         <button type="submit">Enviar</button>
     </form>
 
-    <img id="flag" src="" alt="">
+    <section class="informationCountry">
+    <img id="flag" src="./src/img/que_pais_es.avif">
 
     <ul id = "countryList">
-        <li id="nameeCountry"></li>
-        <li id="capitalCountry"></li>
-        <li id="populationCountry"></li>
+        <li id="nameeCountry">Nombre</li>
+        <li id="capitalCountry">Capital</li>
+        <li id="populationCountry">Poblacion</li>
     </ul>
+
+    </section>
 
 
 
